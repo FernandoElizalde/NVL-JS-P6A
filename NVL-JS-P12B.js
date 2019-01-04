@@ -7,6 +7,6 @@ function par_impar(numero_aleatorio) {
 // body...	}
 var numero_aleatorio= Math.floor((Math.random()*100)+1);
 for(var i=0; i<50; i++){
-	return numero_aleatorio;	
+	numero_aleatorio;	
 	par_impar(numero_aleatorio);
 }
